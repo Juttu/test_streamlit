@@ -12,5 +12,5 @@ print(contents)
 
 f.close()
 
-st.metric(label="Temperature", value=contents[0], delta="1.2 °F")
+st.metric(label="Temperature", value=contents[0], delta="100 °F")
 
